@@ -41,10 +41,7 @@ public class PlaceholderHelper {
                         .mapToInt(material -> p.getStatistic(Statistic.MINE_BLOCK, material))
                         .sum();
             } else if (statistic == Statistic.ENTITY_KILLED_BY) {
-                value = Arrays.stream(EntityType.values())
-                        .filter(entity -> entity != EntityType.UNKNOWN)
-                        .mapToInt(entity -> p.getStatistic(Statistic.ENTITY_KILLED_BY, EntityType.PLAYER))
-                        .sum();
+                value = p.getStatistic(Statistic.ENTITY_KILLED_BY, EntityType.PLAYER); // Получаем только убийства от игроков
             } else {
                 value = p.getStatistic(statistic);
             }
