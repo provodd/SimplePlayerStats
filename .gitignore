@@ -1,0 +1,19 @@
+# Gradle files
+.gradle/
+build/
+
+# Gradle wrapper
+!gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration file (e.g., IDE)
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Minecraft specific
+logs/
+*.log

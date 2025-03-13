@@ -1,0 +1,6 @@
+name: SimplePlayerStats
+version: '1.0.0'
+main: provodd.simplePlayerStats.SimplePlayerStats
+api-version: '1.21'
+authors: [ provodd ]
+website: provodd.ru
