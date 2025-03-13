@@ -137,8 +137,8 @@ public class PlaceholderHandler extends PlaceholderExpansion {
         cachedStats.put(Constants.PLAYTIME_PREFIX, PlaceholderHelper.getSortedStats(Statistic.PLAY_ONE_MINUTE));
         cachedStats.put(Constants.PVP_KILLS_PREFIX, PlaceholderHelper.getSortedStats(Statistic.PLAYER_KILLS));
         cachedStats.put(Constants.MOB_KILLS_PREFIX, PlaceholderHelper.getSortedStats(Statistic.MOB_KILLS));
-        cachedStats.put(Constants.PVP_DEATHS_PREFIX, PlaceholderHelper.getSortedStats(Statistic.DEATHS));
-        cachedStats.put(Constants.MOB_DEATHS_PREFIX, PlaceholderHelper.getSortedStats(Statistic.ENTITY_KILLED_BY));
+        cachedStats.put(Constants.PVP_DEATHS_PREFIX, PlaceholderHelper.getSortedStats(Statistic.ENTITY_KILLED_BY));
+        cachedStats.put(Constants.MOB_DEATHS_PREFIX, PlaceholderHelper.getSortedStats(Statistic.DEATHS));
         cachedStats.put(Constants.FISHERS_PREFIX, PlaceholderHelper.getSortedStats(Statistic.FISH_CAUGHT));
         lastCacheTime = System.currentTimeMillis();
     }

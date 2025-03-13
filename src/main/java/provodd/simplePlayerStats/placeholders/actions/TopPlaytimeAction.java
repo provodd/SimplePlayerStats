@@ -26,10 +26,10 @@ public class TopPlaytimeAction {
                 int totalMinutes = ticks / 20 / 60;
                 int days = totalMinutes / 1440;
                 int hours = (totalMinutes % 1440) / 60;
-                return days + " дн. " + hours + " ч.";
+                return days + " д. " + hours + " ч.";
             }
         } catch (NumberFormatException ignored) {
         }
-        return "0 дн. 0 ч.";
+        return "0 д. 0 ч.";
     }
 }
